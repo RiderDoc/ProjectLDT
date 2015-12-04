@@ -49,7 +49,7 @@
             this.TB_OO_Creator = new System.Windows.Forms.TextBox();
             this.TB_OO_KundeNr = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
+            this.CB_OO_GemKunde = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // TB_OO_OrderNr
@@ -244,23 +244,23 @@
             this.label10.TabIndex = 20;
             this.label10.Text = "Kunde nr.";
             // 
-            // checkBox1
+            // CB_OO_GemKunde
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(543, 20);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(2);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(117, 17);
-            this.checkBox1.TabIndex = 22;
-            this.checkBox1.Text = "Gem som ny kunde";
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.CB_OO_GemKunde.AutoSize = true;
+            this.CB_OO_GemKunde.Location = new System.Drawing.Point(543, 20);
+            this.CB_OO_GemKunde.Margin = new System.Windows.Forms.Padding(2);
+            this.CB_OO_GemKunde.Name = "CB_OO_GemKunde";
+            this.CB_OO_GemKunde.Size = new System.Drawing.Size(117, 17);
+            this.CB_OO_GemKunde.TabIndex = 22;
+            this.CB_OO_GemKunde.Text = "Gem som ny kunde";
+            this.CB_OO_GemKunde.UseVisualStyleBackColor = true;
             // 
             // OpretOrder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(667, 445);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.CB_OO_GemKunde);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.TB_OO_KundeNr);
             this.Controls.Add(this.TB_OO_Creator);
@@ -313,7 +313,7 @@
         private System.Windows.Forms.TextBox TB_OO_Creator;
         private System.Windows.Forms.TextBox TB_OO_KundeNr;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.CheckBox CB_OO_GemKunde;
     }
 }
 
